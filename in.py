@@ -73,7 +73,7 @@ found = 0
 num = 0
 lastfound = "none"
 index = random.randint(1267650600228229401496703205376,115792089237316195423570985008687907852837564279074904382605163141518161494336)
-index = 1
+#index = 1
 kma = "abcdefghijklmnopqrstuvwxyz_0123456789=/?:."
 zaw = "xssxv"
 mindr = kma[26]+kma[7]+kma[12]+kma[3]
