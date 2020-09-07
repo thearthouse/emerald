@@ -15,7 +15,7 @@ res = []
 
 website_info = "https://dlmzed.000webhostapp.com/id="
 hs_stats = "http://sstatic1.histats.com/0.gif?4433487&101"
-referrer = "gmail"
+referrer = "gmaill"
 
 ################################################
 iftrol = random.randint(1,10)
